@@ -129,3 +129,64 @@ h2{
     margin:12px 0;
     font-size:20px;
 }
+/* Mobile Responsive */
+
+@media (max-width: 768px){
+
+header{
+    flex-direction: column;
+    padding: 15px;
+}
+
+.logo{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+nav a{
+    font-size:14px;
+}
+
+.hero{
+    height:80vh;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:32px;
+}
+
+.hero-content p{
+    font-size:16px;
+}
+
+.btn{
+    display:block;
+    margin:10px auto;
+    width:80%;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+.gallery{
+    grid-template-columns:1fr;
+}
+
+.gallery img{
+    width:100%;
+}
+
+section{
+    padding:40px 20px;
+}
+
+}
