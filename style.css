@@ -138,9 +138,13 @@ nav a:hover{
 ================================ */
 
 
+./* ==============================
+        HERO
+================================ */
+
 .hero{
 
-    min-height:100vh;
+    min-height:85vh;
 
     background:
 
@@ -149,8 +153,7 @@ nav a:hover{
     rgba(0,0,0,.75)
     ),
 
-    url("images/vinyl1.jpeg")
-
+    url("images/vinyl1.jpeg");
 
     background-size:cover;
 
@@ -164,7 +167,7 @@ nav a:hover{
 
     text-align:center;
 
-    padding:120px 8% 60px;
+    padding:100px 8% 50px;
 
 }
 
