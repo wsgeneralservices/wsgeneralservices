@@ -858,6 +858,11 @@ footer{
 ================================ */
 
 
+/* ==============================
+        MOBILE RESPONSIVE
+================================ */
+
+
 @media(max-width:768px){
 
 
@@ -878,6 +883,8 @@ header{
     height:55px;
 
     object-fit:cover;
+
+    border-radius:12px;
 
 }
 
@@ -1007,9 +1014,13 @@ section h2{
 
 
 
+/* GALERIA MOBILE */
+
 .gallery{
 
     grid-template-columns:repeat(2,1fr);
+
+    gap:10px;
 
 }
 
@@ -1017,11 +1028,17 @@ section h2{
 
 .gallery img{
 
-    height:160px;
+    height:170px;
+
+    border-radius:15px;
+
+    object-fit:cover;
 
 }
 
 
+
+/* AVALIAÇÕES */
 
 .reviews-grid{
 
@@ -1030,6 +1047,8 @@ section h2{
 }
 
 
+
+/* CTA */
 
 .cta h2{
 
@@ -1047,6 +1066,8 @@ section h2{
 
 
 
+/* WHATSAPP */
+
 .whatsapp{
 
     width:50px;
@@ -1058,5 +1079,6 @@ section h2{
     bottom:15px;
 
 }
+
 
 }
