@@ -46,79 +46,71 @@ img{
 }
 
 
-/* ==============================
+//* ==============================
         HEADER
 ================================ */
-
 
 header{
 
     position:fixed;
-
     top:0;
-
     left:0;
-
     width:100%;
 
     padding:10px 6%;
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
 
-    background:rgba(255,255,255,.95);
+    background:rgba(255,255,255,.98);
 
     backdrop-filter:blur(12px);
 
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    box-shadow:0 5px 25px rgba(0,0,0,.18);
 
     z-index:1000;
 
 }
 
 
-
 .logo img{
 
     width:75px;
-
     height:75px;
 
     object-fit:cover;
 
     border-radius:12px;
 
-}
+    filter:drop-shadow(0 3px 5px rgba(0,0,0,.25));
 
+}
 
 
 nav{
 
     display:flex;
-
     align-items:center;
-
     gap:30px;
 
 }
-
 
 
 nav a{
 
     font-size:15px;
 
-    font-weight:600;
+    font-weight:700;
 
     color:#111;
+
+    text-shadow:
+    0 1px 2px rgba(0,0,0,.20);
 
     transition:.3s;
 
 }
-
 
 
 nav a:hover{
@@ -126,7 +118,6 @@ nav a:hover{
     color:#FFD400;
 
 }
-
 
 
 .quote-btn{
@@ -141,8 +132,9 @@ nav a:hover{
 
     font-weight:700;
 
-}
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
 
+}
 
 
 /* ==============================
