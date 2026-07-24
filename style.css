@@ -816,14 +816,12 @@ animation:fadeUp 1s ease;
 
 
 
-
 /* ==============================
         MOBILE
 ================================ */
 
 
 @media(max-width:768px){
-
 
 
 header{
@@ -846,7 +844,15 @@ header{
 
 nav{
 
+    display:flex;
+
+    align-items:center;
+
     gap:8px;
+
+    flex-wrap:wrap;
+
+    justify-content:flex-end;
 
 }
 
@@ -869,6 +875,8 @@ nav a{
 }
 
 
+
+/* HERO */
 
 .hero{
 
@@ -912,6 +920,8 @@ nav a{
 
 
 
+/* STATS */
+
 .stats{
 
     grid-template-columns:1fr;
@@ -921,6 +931,8 @@ nav a{
 }
 
 
+
+/* SEÇÕES */
 
 section{
 
@@ -938,6 +950,8 @@ section h2{
 
 
 
+/* ABOUT */
+
 .about{
 
     grid-template-columns:1fr;
@@ -946,6 +960,8 @@ section h2{
 
 
 
+/* CARDS */
+
 .cards{
 
     grid-template-columns:1fr;
@@ -953,6 +969,8 @@ section h2{
 }
 
 
+
+/* GALERIA */
 
 .gallery{
 
@@ -972,6 +990,8 @@ section h2{
 
 
 
+/* REVIEWS */
+
 .reviews-grid{
 
     grid-template-columns:1fr;
@@ -980,99 +1000,13 @@ section h2{
 
 
 
+/* CTA */
+
 .cta h2{
 
     font-size:32px;
 
 }
 
-
-
-}
-/* ==============================
-        MOBILE MENU
-================================ */
-
-
-/* ==============================
-        MOBILE MENU
-================================ */
-
-.menu-toggle{
-
-    display:none;
-
-    font-size:32px;
-
-    cursor:pointer;
-
-    color:#111;
-
-}
-
-
-/* CELULAR */
-
-@media(max-width:768px){
-
-    header{
-
-        padding:10px 5%;
-
-    }
-
-
-    .logo img{
-
-        width:60px;
-        height:60px;
-
-    }
-
-
-    nav{
-
-        position:absolute;
-
-        top:80px;
-
-        left:0;
-
-        width:100%;
-
-        background:white;
-
-        flex-direction:column;
-
-        gap:20px;
-
-        padding:30px 0;
-
-        display:none;
-
-        box-shadow:0 10px 20px rgba(0,0,0,.15);
-
-    }
-
-
-    nav.active{
-
-        display:flex;
-
-    }
-
-
-    .menu-toggle{
-
-        display:block;
-
-    }
-
-
-    .quote-btn{
-
-        margin-top:10px;
-
-    }
 
 }
