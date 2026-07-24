@@ -39,22 +39,28 @@ img{
 
 header{
 
+/* ==============================
+        HEADER
+================================ */
+
+header{
+
     position:fixed;
     top:0;
     left:0;
     width:100%;
 
-    padding:18px 7%;
+    padding:10px 6%;
 
     display:flex;
     justify-content:space-between;
     align-items:center;
 
-    background:rgba(0,0,0,0.55);
+    background:rgba(0,0,0,.85);
 
     backdrop-filter:blur(12px);
 
-    border-bottom:1px solid rgba(255,255,255,0.08);
+    border-bottom:1px solid rgba(255,255,255,.08);
 
     z-index:1000;
 
@@ -63,11 +69,15 @@ header{
 
 .logo img{
 
-    width:120px;
+    width:75px;
 
-    height:auto;
+    height:75px;
 
-    border-radius:10px;
+    object-fit:cover;
+
+    border-radius:12px;
+
+}
 
 }
 
@@ -845,42 +855,14 @@ footer{
 ================================ */
 
 
-@media(max-width:1100px){
-
-
-    .gallery{
-
-        grid-template-columns:repeat(3,1fr);
-
-    }
-
-
-    .reviews-grid{
-
-        grid-template-columns:1fr 1fr;
-
-    }
-
-
-    .stats{
-
-        grid-template-columns:repeat(2,1fr);
-
-    }
-
-
-}
-
-
-
 @media(max-width:768px){
 
 
 header{
 
-    flex-direction:column;
+    padding:10px 15px;
 
-    padding:15px 20px;
+    flex-direction:row;
 
 }
 
@@ -888,7 +870,11 @@ header{
 
 .logo img{
 
-    width:120px;
+    width:55px;
+
+    height:55px;
+
+    object-fit:cover;
 
 }
 
@@ -896,13 +882,13 @@ header{
 
 nav{
 
-    margin-top:15px;
+    margin-top:0;
 
     flex-wrap:wrap;
 
-    justify-content:center;
+    justify-content:flex-end;
 
-    gap:15px;
+    gap:10px;
 
 }
 
@@ -910,7 +896,7 @@ nav{
 
 nav a{
 
-    font-size:13px;
+    font-size:11px;
 
 }
 
@@ -918,7 +904,9 @@ nav a{
 
 .quote-btn{
 
-    padding:10px 18px;
+    padding:8px 15px;
+
+    font-size:12px;
 
 }
 
@@ -926,7 +914,9 @@ nav a{
 
 .hero{
 
-    padding-top:160px;
+    min-height:80vh;
+
+    padding:120px 20px 40px;
 
 }
 
@@ -934,7 +924,7 @@ nav a{
 
 .hero h1{
 
-    font-size:38px;
+    font-size:34px;
 
 }
 
@@ -942,7 +932,7 @@ nav a{
 
 .hero p{
 
-    font-size:16px;
+    font-size:15px;
 
 }
 
@@ -1016,7 +1006,7 @@ section h2{
 
 .gallery{
 
-    grid-template-columns:1fr;
+    grid-template-columns:repeat(2,1fr);
 
 }
 
@@ -1024,7 +1014,7 @@ section h2{
 
 .gallery img{
 
-    height:260px;
+    height:160px;
 
 }
 
@@ -1053,37 +1043,17 @@ section h2{
 }
 
 
-}
 
+.whatsapp{
 
+    width:50px;
 
-/* ==============================
-        SMALL PHONES
-================================ */
+    height:50px;
 
+    right:15px;
 
-@media(max-width:400px){
-
-
-.hero h1{
-
-    font-size:32px;
+    bottom:15px;
 
 }
-
-
-nav{
-
-    gap:10px;
-
-}
-
-
-nav a{
-
-    font-size:12px;
-
-}
-
 
 }
